@@ -1,0 +1,14 @@
+Use DynamoDB service to create bookDb with columns: BookID, bookName, AuthorDb
+
+
+step1:- open aws console
+step2:- click on DynamoDB services on services
+step3:- then click on create table for table creation.
+step4:- give the table name "BOOK_db".
+step5:- fill the partition key "book_id" 
+step6:- select the table setting default
+step7:-then click on create table
+step8:- our table is created click on the table link.
+step9:- then go to action click on create items.
+step10:- add the items with the values
+step 11:- our items will be uploaded sucessfully
