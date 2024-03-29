@@ -1,0 +1,10 @@
+Use S3 service to create bucket and upload 1st and 2nd txt file
+
+1)Login at awsconsole page 
+2)click on services icon 
+3)click on storage then S3 on right side box
+4)click on the create bucket option 
+5)give the bucket name which should be unique 
+6)lay all option at deafult value just change  bucket version to enable
+7)click on create bucket and now click on hyper link on bucket name 
+8)now click on upload button to upload file and select the file or folder and click on upload option

@@ -1,0 +1,11 @@
+Create a Linux E2 Instance
+	1. Sign in to AWS Management Console.
+	2. Navigate to EC2 Dashboard.
+	3. Click on the "Launch Instance" button to start the process of creating a new instance.
+	4. Enter a name and tags for the instance to easily identify and organize it.
+	5. Choose an Amazon Machine Image (AMI). For a Linux instance, select Amazon Linux or any other Linux distribution available in the AWS Marketplace.
+	6. Choose an Instance Type: Select the appropriate instance type based on your application's requirements, such as CPU, memory, and network performance.
+	7. Configure Instance Details: Specify details such as the number of instances, network settings, and IAM role.
+	8. Add Storage: Configure the size and type of the root volume (usually EBS) for your instance.
+	9. Configure Security Group: Define inbound and outbound traffic rules for the instance. Ensure to allow SSH (port 22) access for Linux instances.
+Review and Launch: Review the instance configuration to ensure everything is set up correctly. Then, proceed to launch the instance.

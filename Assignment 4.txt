@@ -1,0 +1,34 @@
+1. Use IAM service to create DEV group with user MARK
+	
+	
+	1. Sign in to AWS Management Console:
+	2. Navigate to IAM Dashboard:
+	3. Create a Group
+	   - Click on "Groups" in the left-hand navigation pane.
+	   - Click on the "Create New Group" button.
+	   - Enter the group name, for example, "DEV".
+	   - Click on "Next Step".
+	
+	5. Review and Create the Group
+	   - Review the group details and policies attached (if any).
+	   - Click on the "Create Group" button to create the DEV group.
+	
+	6. Create a User:
+	   - Click on "Users" in the left-hand navigation pane.
+	   - Click on the "Add user" button.
+	   - Enter the user name, for example, "MARK".
+	   - Select "Programmatic access" and "AWS Management Console access" for access type.
+	   - Optionally, set a custom password or let AWS generate one for you.
+	   - Click on "Next: Permissions".
+	
+	7. Add User to Group:
+	   - Select the group(s) to which you want to add the user. In this case, select the "DEV" group.
+	   - Click on "Next: Review".
+	
+	9. Review and Create the User:
+	   - Review the user details, permissions, and group membership.
+	   - Click on the "Create user" button to create the user MARK and add it to the DEV group.
+	
+	10. Note the User Credentials:
+	    - Once the user is created, note down the user's access key ID and secret access key (if you selected programmatic access).
+	    - Provide the user's login credentials (user name and password) if you selected AWS Management Console access.
