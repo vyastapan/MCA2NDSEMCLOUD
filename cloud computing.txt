@@ -1,0 +1,73 @@
+1. create a linux EC2 instance
+anwer1.
+step1:- login to aws console
+step2:- go to services
+step3:- click on ec2
+step4:- To launch an instance click on launch instance
+step5:- give the name the instance
+step6:-then select aws
+step7:- select default value of key recomamnded
+step8:- click on launch instance
+step9:- then a link is generate in a green box on topp of console
+step10:-click on that link then again click on instance id link.
+step11:-then click on connect
+step12:- In sometime our linux ec2 instance is create with user_id.
+ 
+2.use dynamo db service to create book db with columns book id.
+answer 2.
+step1:- open aws console
+step2:- click on DynamoDB services on services
+step3:- then click on create table for table creation.
+step4:- give the table name "BOOK_db".
+step5:- fill the partition key "book_id" 
+step6:- select the table setting default
+step7:-then click on create table
+step8:- our table is created click on the table link.
+step9:- then go to action click on create items.
+step10:- add the items with the values
+step 11:- our items will be uploaded sucessfully.
+
+3.use S3 service to create bucket and upload first and second text file.
+answer 3.
+1)Login at awsconsole page 
+2)click on services icon 
+3)click on storage then S3 on right side box
+4)click on the create bucket option 
+5)give the bucket name which should be unique 
+6)lay all option at deafult value just change  bucket version to enable
+7)click on create bucket and now click on hyper link on bucket name 
+8)now click on upload button to upload file and select the file or folder and click on upload option
+ 
+4. use IAM service to create development group with user 'mark'.
+ answer 4.
+1. Sign in to AWS Management Console:
+	2. Navigate to IAM Dashboard:
+	3. Create a Group
+	   - Click on "Groups" in the left-hand navigation pane.
+	   - Click on the "Create New Group" button.
+	   - Enter the group name, for example, "DEV".
+	   - Click on "Next Step".
+	
+	5. Review and Create the Group
+	   - Review the group details and policies attached (if any).
+	   - Click on the "Create Group" button to create the DEV group.
+	
+	6. Create a User:
+	   - Click on "Users" in the left-hand navigation pane.
+	   - Click on the "Add user" button.
+	   - Enter the user name, for example, "MARK".
+	   - Select "Programmatic access" and "AWS Management Console access" for access type.
+	   - Optionally, set a custom password or let AWS generate one for you.
+	   - Click on "Next: Permissions".
+	
+	7. Add User to Group:
+	   - Select the group(s) to which you want to add the user. In this case, select the "DEV" group.
+	   - Click on "Next: Review".
+	
+	9. Review and Create the User:
+	   - Review the user details, permissions, and group membership.
+	   - Click on the "Create user" button to create the user MARK and add it to the DEV group.
+	
+	10. Note the User Credentials:
+	    - Once the user is created, note down the user's access key ID and secret access key (if you selected programmatic access).
+	    - Provide the user's login credentials (user name and password) if you selected AWS Management Console access.
